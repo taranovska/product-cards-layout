@@ -1,0 +1,81 @@
+.card {
+  padding: 20px;
+  padding-right: 60px;
+}
+.checked {
+  color: orange;
+}
+.descr {
+  display: flex;
+}
+.sale {
+  background-color: red;
+  padding: 5px 10px;
+  color: white;
+}
+.bestPrice {
+  background-color: green;
+}
+.margin20 {
+  margin-right: 20px;
+}
+.prices {
+  display: flex;
+  align-items: center;
+}
+.newPrice {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+.title {
+  font-weight: bold;
+}
+.cash {
+  background-color: bisque;
+  display: flex;
+  margin: auto 0;
+}
+.margin10 {
+  margin: 10px;
+}
+.marginRight {
+  margin-right: 10px;
+}
+.oldPrice {
+  text-decoration: line-through;
+  color: grey;
+  margin-bottom: 20px;
+}
+.buy {
+  color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  border: none;
+}
+.buyOptions {
+  display: flex;
+  align-items: center;
+}
+.code {
+  text-align: right;
+}
+.card {
+  max-width: 250px;
+}
+.review {
+  display: flex;
+  align-items: center;
+}
+.visible {
+  visibility: hidden;
+}
+.card:hover .visible {
+  visibility: visible;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
